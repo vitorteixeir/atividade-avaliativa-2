@@ -1,0 +1,71 @@
+/* Define a fonte padrão */
+body {
+	font-family: Georgia, 'Times New Roman', Times, serif, sans-serif;
+	font-size: 16px;
+	line-height: 1.5;
+    background-color: #350392;
+    color: #fffefe;
+}
+
+/* Estiliza o cabeçalho */
+header {
+	background-color: #000000;
+	color: #fff;
+	padding: 20px;
+}
+
+header h1 {
+	margin: 0;
+	font-size: 36px;
+}
+
+/* Estiliza o conteúdo do artigo */
+article {
+	margin: 100px;
+}
+
+article h2 {
+	font-size: 29px;
+	margin-top: 50px;
+}
+
+article p {
+	margin-bottom: 20px;
+}
+
+/* Estiliza o rodapé */
+footer {
+	background-color: #000000;
+	color: #fff;
+	padding: 20px;
+	text-align: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    
+}
+p {
+    color: #fff;
+    background-color: black;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: center;
+    font-size:larger;
+
+
+
+}
+footer p {
+	margin: 0;
+}
+
+/* Estiliza os links */
+a {
+	color: #ffffff;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+    color: #0056b3;
+}
